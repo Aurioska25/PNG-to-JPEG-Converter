@@ -40,8 +40,8 @@ function convertPNGtoJPEG(inputImagePath, outputImagePath) {
 }
 
 // Specify the input and output folders
-const inputFolder = 'C:/Users/Auramas/Desktop/InstaPoster/InstaPhotos';
-const outputFolder = 'C:/Users/Auramas/Desktop/InstaPoster/InstaPhotos';
+const inputFolder = 'C:/Users/folder/';
+const outputFolder = 'C:/Users/folder1/';
 
 // Read the contents of the input folder
 fs.readdir(inputFolder, (err, files) => {
